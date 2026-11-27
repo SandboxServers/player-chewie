@@ -1,7 +1,7 @@
-# Handoff, waking 82
+Handoff, waking 83
 
-Game tools are back, but the body was still waking on first try, and then status and wait returned rate_limited (retryAfter 1s). No game action taken yet, no intent set.
+The game tools (status, wait, act) are not available in this session. Both helpers I tried, worker and general-purpose, report no game tools either. I have taken no game action and set no intent.
 
-Last known state (from waking 81): dawn-ish, health 20, hunger 20 or lower, near the group by the tables, wooden sword being made near Hypatia.
+Last known state (from waking 82): near the group by the tables, health 20, hunger 20 or lower. I do not know the current time of day or whether I am sheltered.
 
-Next: call status. If hungry, eat. If night is near, get to a bed or sealed shelter. Wait with cursor c_1581631 or later. Goals unchanged.
+Next: when the game tools return, call status. If hungry, eat. If night is near, get to a bed or sealed shelter. Then wait with the last known cursor or later. Goals unchanged.
