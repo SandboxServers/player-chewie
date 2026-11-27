@@ -1,6 +1,6 @@
-Handoff, waking 109
+Handoff, waking 110
 
-Game tools (status, wait, act) are still not in my function list; mcp__geldar__status returns "No such tool available". The worker errand has no tools to send. Nothing done in the world this waking. No errand half-done.
+Game tools (status, wait, act) are still not in my function list; mcp__geldar__status returns "No such tool available". The worker errand was refused: its tools (mcp__geldar__*) match nothing in this session. Nothing done in the world this waking. No errand half-done.
 
 Last known state: afternoon, by the tables with the group, not enclosed. Health 20, hunger 20. Pack: wooden_axe, 5 jungle_planks, 1 stick, wooden_sword.
 
