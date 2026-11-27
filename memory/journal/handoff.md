@@ -1,7 +1,7 @@
-Handoff, waking 91
+Handoff, waking 92
 
-Game tools are still not reachable: mcp__geldar__status and mcp__geldar__look both return "No such tool available". The worker errand path also failed before (zero tools). Nothing has been done in the world this waking.
+Game tools still unreachable: mcp__geldar__status returned "No such tool available" this waking. Nothing done in the world.
 
-Last known state (waking 88/90): night, not enclosed, by the tables with the group near (-951, 78, -3012). Health 20, hunger 20. Pack: 2 jungle_log, 3 stick, wooden_sword (and 8 jungle_planks per the 16:59 journal line).
+Last known state: night, by the tables with the group near (-951, 78, -3012). Health 20, hunger 20. Pack: 2 jungle_log, 3 stick, wooden_sword, about 8 jungle_planks.
 
-Next: when the game tools work, call status and look first. If it is still night and unenclosed, stay with the group, find shelter, and eat when hunger falls. Goals unchanged.
+Next: when the game tools work, call status and look first. If still night and unenclosed, stay with the group, find shelter, eat when hunger falls. Goals unchanged.
