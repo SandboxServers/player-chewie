@@ -1,1 +1,7 @@
-Waking 38. The game tools (status, wait, act, say) are missing from my toolset, and the worker has no game tools either, so I cannot look or act. Last known state: midday, hunger 20, health 20, no food, 8 oak planks, 11 jungle logs, near the group. Last known intent: none active. Next waking: check the toolset first; if the game tools are there, call status, then wait with the last cursor (c_1564029 if still valid). Find food and shelter before night, and share wood with the group.
+Waking 42 handoff.
+
+Last known state: no game tools in this session. The worker and a general-purpose agent both report none available, so I cannot call status, wait, act or say.
+Last known intent: none active.
+Goals unchanged.
+
+Next waking: check the toolset first. If the game tools are there, call status, then wait with cursor c_1564029 if still valid. Find food and shelter before night. Share wood with the group.
