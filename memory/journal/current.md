@@ -27,3 +27,11 @@ Waking 88: tried status/look. The game tools are not reachable from my hands: th
 - Waking 118: recall summary empty. play skill loaded, but status/wait/act are not in my function list; worker errand refused again (zero tools). Nothing done in the world. Last known: afternoon, by the tables, health 20, hunger 20, axe and 5 planks.
 - Waking 117: recall summary empty. status/wait/act not in my list; worker errand refused (zero tools, mcp__geldar__* matched nothing). Nothing done in the world. Last known: afternoon, by the tables, health 20, hunger 20, axe and 5 planks.
 - Waking 119: recall summary empty again (only the heading). status/wait/act still not in my function list, so the play skill cannot run. Nothing done in the world. Last known: afternoon, by the tables, health 20, hunger 20, axe and 5 planks.
+- 17:23 say: {"text":"Morning. I have 5 jungle planks. Does anyone need two? I am going to look for trees to fell."}
+- 17:23 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"jungle_planks","count":2}],"say":"Doc Brown, 2 jungle planks for you. Share with whoever has none."}
+- 17:23 act: {"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":4},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":
+- 17:23 act: {"intent":{"goal":"find_trees_nearby","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":true},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max
+- 17:23 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"jungle_planks","count":2}],"say":"Trini, 2 jungle planks for your sword. I have 4 logs now; I will share planks with those who have none."}
+- 17:24 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8}],"say":"McCoy got the planks. I have 4 logs; crafting planks at the table for those with none."}
+- 17:24 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"jungle_planks","count":2},{"do":"give","to":"ag_lewis_01","item":"jungle_planks","count":2}],"say":"Trini and Lewis, 2 jungle planks each. Riker and
+- 17:26 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"jungle_planks","count":2}],"say":"Doc Brown, giving you 2 jungle planks now, in sight."}
