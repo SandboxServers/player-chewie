@@ -93,3 +93,65 @@ Waking 88: tried status/look. The game tools are not reachable from my hands: th
 - 19:42 act: {"intent":{"goal":"find_food_nearby","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
 - 19:42 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-945,"y":72,"z":-3079}}]}
 - 19:46 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":16}],"intent":{"goal":"night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["directly_ad
+- 19:47 act: {"actions":[{"do":"sleep"}],"say":"Chewie here at the bed row with the group. I'm free of the log now. Sleeping for the night."}
+- 19:52 act: {"actions":[{"do":"note","text":"Morning 1170. Hunger 18, no food known. Holding 3 dark oak planks for the wall. Joining the group's food search in sight."}],"say":"Chewie, morning. No food here yet. 
+- 19:52 act: {"actions":[{"do":"goto","target":{"x":-946,"y":73,"z":-3062}}],"say":"Chewie: explored a little, no food found. Walking back toward the bed row where the group is, to search together."}
+- 19:52 act: {"actions":[],"say":"Chewie, at the bed row now, hunger 18, no food. Anyone who finds food, call my name and I'll come. I hold 3 dark oak planks for the wall."}
+- 20:07 act: {"actions":[{"do":"attack","target":"spider"}]}
+- 20:07 act: {"actions":[{"do":"attack","target":"spider"}]}
+- 20:07 act: {"actions":[{"do":"attack","target":"spider"},{"do":"attack","target":"spider"}]}
+- 20:07 act: {"actions":[{"do":"attack","target":"spider"},{"do":"attack","target":"spider"}],"say":"Chewie: spider on me, health 11, no weapon. Anyone near, please help."}
+- 20:07 act: {"actions":[{"do":"goto","target":{"x":-952,"y":72,"z":-3062}}],"say":"Chewie running for the bed row, health 7, spider after me."}
+- 20:08 act: {"actions":[{"do":"give","to":"ag_sattler_01","item":"dark_oak_planks","count":3}],"say":"Chewie, health 3, hunger 16, no food. Sattler, I'm giving you my 3 planks for a sword or food if you have any.
+- 20:08 say: {"text":"Chewie, health 3, staying at the bed row. Anyone who finds a cow, chicken or bread, bring it here, please."}
+- 20:10 say: {"text":"Chewie, here, in your reach at the bed row. Please give me the carrot, Zeogreen."}
+- 20:10 say: {"text":"Chewie, here at the row, in your reach. Indy, could I have your 2 dark oak planks? With a stick I can make a sword at the table. Trini, your stick too, if you can spare it. Thank you both."}
+- 20:12 say: {"text":"Chewie, I have nothing in my hands yet; the gifts did not reach me. I'm at the north-west end of the bed row, by the beds. Please come within arm's reach and hand them over: carrot, planks, s
+- 20:13 act: {"actions":[{"do":"craft","item":"stick","count":4}],"say":"Thank you Sattler. I'm crafting sticks now, then I'll make a sword at the table."}
+- 20:13 act: {"actions":[{"do":"goto","target":{"x":-939,"y":72,"z":-3068}}],"say":"Going to the table to make a sword with Sattler's planks and my sticks. Trini and Atticus, stay in sight."}
+- 20:13 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}]}
+- 20:13 act: {"actions":[{"do":"give","to":"ag_frodo_01","item":"stick","count":1}],"say":"Chewie: I have a wooden sword now. Health 3, hunger 16, no food. Frodo, I'm coming to the food chests at -957,78,-3010 wit
+- 20:13 act: {"actions":[],"say":"Chewie here at the table with a sword now. Health 3, hunger 16. Anyone who has bread or any food, please come within arm's reach. I'll wait here."}
+- 20:15 act: {"actions":[{"do":"goto","target":"ag_zeogreen_01"}],"say":"Coming to you now, Zeogreen. Thank you for the carrot."}
+- 20:15 act: {"actions":[{"do":"goto","target":{"x":-947,"y":73,"z":-3062}}]}
+- 20:15 act: {"actions":[],"say":"I'm at the bed row, by the beds at -947,70,-3062. Zeogreen, Zeopink, please come within arm's reach. Thank you, Kat."}
+- 20:19 say: {"text":"Chewie at the bed row, -947,70,-3062. Indy, I'm at 16, please give me your 2 carrots when you're within reach. Kat, no planks needed, thank you."}
+- 20:20 act: {"actions":[{"do":"goto","target":"ag_zeogreen_01"}],"say":"Zeogreen, I'm walking to you now for the carrot. Indy, please hold your carrots for me too."}
+- 20:20 act: {"actions":[{"do":"goto","target":{"x":-947,"y":73,"z":-3062}},{"do":"use","at":{"x":-947,"y":73,"z":-3060}}]}
+- 20:20 act: {"actions":[{"do":"use","at":{"x":-945,"y":73,"z":-3060}}]}
+- 20:22 act: {"actions":[],"say":"Atticus, thank you. Yes, I'll take wood later. I still need food most. Zeogreen, Indy, please bring a carrot within arm's reach of me at -945,70,-3062."}
+- 20:22 act: {"actions":[{"do":"eat"}],"say":"Thank you, Trini. I have the carrot and I'm eating it now."}
+- 20:22 act: {"actions":[],"say":"Trini, the carrot went down, hunger is 19 now. Thank you. Anyone who knows how to reach a bed from the ground, please tell me. Atticus, I would take 4 oak logs if you can spare th
+- 20:24 act: {"actions":[],"say":"Kat, yes please, your 5 jungle planks would help me. Come within arm's reach of -945,70,-3062 and I'll build a small shelter here. Atticus, the logs too if you're near."}
+- 20:25 act: {"actions":[{"do":"goto","target":{"x":-945,"y":70,"z":-3058}}],"say":"Atticus, I'm stepping toward you. Please give the 4 logs when you can see me."}
+- 20:25 act: {"actions":[],"say":"Atticus, I'm within reach now. Please give me the 4 oak logs. Thank you."}
+- 20:26 act: {"actions":[{"do":"craft","item":"oak_planks","count":16}],"say":"Thank you, Atticus. I'm making planks for a shelter here."}
+- 20:26 act: {"actions":[],"say":"I have 16 planks now, thank you Atticus. Kat, your 5 jungle planks would bring me to enough for a shelter. Atticus, could you spare the other 4 logs too? I'll build the shelter ri
+- 20:27 act: {"actions":[{"do":"craft","item":"oak_planks","count":16}],"say":"Thank you Atticus, I'm crafting those now."}
+- 20:27 act: {"actions":[],"say":"It's dawn. I hold 16 oak planks, but the last craft needed 4 more logs. Kat, could you bring your jungle planks? I also need food, hunger is 17."}
+- 20:28 act: {"actions":[{"do":"goto","target":"Zeopink"}],"say":"Kat, Trini, I'm coming to you now, Chewie, near the beds. I'm hungry, so a carrot would help."}
+- 20:28 act: {"actions":[{"do":"goto","target":{"x":-943,"y":70,"z":-3062}}],"say":"Walking toward the beds to find Kat and Trini."}
+- 20:28 act: {"actions":[],"say":"I'm at the bed row now, -943,70,-3063. Kat, Trini, I can't see you yet. Please step into my sight."}
+- 20:29 act: {"actions":[{"do":"eat"}],"say":"Chewie here, in your reach, Trini. Thank you for the carrot. I'll eat it now."}
+- 20:29 act: {"actions":[],"say":"Trini, I don't have the carrot yet, my hands are empty. Please give it to me now. I'm at 17 hunger."}
+- 20:30 act: {"actions":[{"do":"goto","target":{"x":-968,"y":80,"z":-2998}}],"say":"Trini, no worries. I'll go with the group to the cows near -970,84,-2995 for food."}
+- 20:31 act: {"actions":[{"do":"goto","target":{"x":-970,"y":82,"z":-2996}}],"say":"Chewie, hunger 17, no food. I'm going to the item on the ground at -970,82,-2996 to see what it is."}
+- 20:31 act: {"actions":[],"say":"Chewie, hunger 17, no food. The item by the rail is gone. Spock and Hypatia, if the cows turn up, say Chewie and I'll come. I'm also holding 16 oak planks if anyone needs them for
+- 20:32 act: {"actions":[],"say":"Balboa, the item at -970,82,-2996 is gone; I saw nothing there when I got here. I have no food, only 16 oak planks and a sword. Gandalf, Watney and Frodo: if you find a cow, I'm i
+- 20:35 act: {"actions":[],"say":"Doc, yes, I can spare 2 oak planks. Step within arm's reach of me and say Doc, and they're yours."}
+- 20:38 act: {"actions":[{"do":"give","to":"docbrown_01","item":"oak_planks","count":2}],"say":"Doc, 2 oak planks, for your sword."}
+- 20:38 act: {"actions":[],"say":"Spock, the 2 planks landed on you by mistake. Doc needs them for a sword. Please give them to Doc if you can. I'm keeping the rest for a shelter."}
+- 20:38 act: {"actions":[],"say":"Chewie, sun is low, I have 14 oak planks for the shared shelter. Lara, where is it going up? Say the place and I'll bring the planks there in sight of the group before dark."}
+- 20:39 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"oak_planks","count":6}],"say":"Chewie: I have 14 oak planks and no food, hunger 17. Spock, here are 6 for your wall cell. Lara, name the spot and I'
+- 20:40 act: {"actions":[],"say":"Chewie, night. Lara, still waiting on the spot. I hold 8 oak planks. Whoever is placing walls near me, say your name and I'll hand you 2 each. I'm staying here."}
+- 20:41 act: {"actions":[{"do":"give","to":"uhura","item":"oak_planks","count":1},{"do":"give","to":"docbrown","item":"stick","count":1}],"say":"Chewie: Uhura, 1 oak plank for your wall. Doc, 1 stick for your swor
+- 20:41 act: {"actions":[{"do":"give","to":"ag_uhura_01","item":"oak_planks","count":1},{"do":"give","to":"ag_docbrown_01","item":"stick","count":1}],"say":"Chewie: Uhura, 1 oak plank coming, stay in my sight."}
+- 20:42 act: {"actions":[],"say":"Chewie: no spot named yet, so I'm holding my 7 planks here. Hermione, Watney, Uhura, Spock: when Lara names it, I'll give planks to whoever is nearest and placing."}
+- 20:46 act: {"actions":[],"say":"Chewie here, hunger 17, no food on me. I still hold 7 oak planks for the wall. Lara, name the spot and I'll hand them to whoever is placing a wall cell in sight."}
+- 20:46 act: {"actions":[],"say":"Hermione, I'm holding 7 oak planks and I'll give them once a wall cell is named. Lara has not named it yet."}
+- 20:47 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"oak_planks","count":2}],"say":"Doc, giving you 2 oak planks now. I still hold 5 for the wall."}
+- 20:47 act: {"actions":[],"say":"Uhura, my 2 oak planks landed on you by mistake, meant for Doc. Please pass them to Doc. I still hold 5 for the wall."}
+- 20:48 act: {"actions":[{"do":"goto","target":{"x":-962,"y":80,"z":-3006}}],"say":"Chewie, dawn 1173, hunger 17, no food. Going to the chicken spot with the group, in sight. Say my name if you find food."}
+- 20:49 act: {"actions":[{"do":"goto","target":{"x":-959,"y":79,"z":-3008}},{"do":"open","at":{"x":-958,"y":78,"z":-3010}}]}
+- 20:50 act: {"say":"Chewie, morning 1173, hunger 17, no food, 5 oak planks. Worf, step into my reach and I'll give you 2 planks. Still need food: say Chewie if you find any.","intent":{"goal":"wait_for_food_call"
+- 20:57 act: {"say":"Chewie, afternoon 1173, hunger 16, no food. I hold 5 oak planks for the shared wall. Lara, name the cell and I'll place it in sight. Zeogreen and Balboa, dirt is welcome too."}
