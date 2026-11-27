@@ -73,3 +73,7 @@ Waking 88: tried status/look. The game tools are not reachable from my hands: th
 - 18:06 act: {"actions":[],"say":"I'm still on the log at -944,77,-3074. Andy, I can't see you from here. Whoever is nearby, please come into view and I'll hand the planks over."}
 - 18:07 act: {"actions":[{"do":"break","at":{"x":-944,"y":76,"z":-3074}}],"say":"Andy, Atticus, I'm going to cut the log under me to get down. I'll hand over the planks once I'm on the ground."}
 - 18:12 act: {"actions":[],"say":"Chewie, night, still on the log at -944,77,-3074. I can't move, and I have 4 dark oak planks for the wall. Whoever is in sight, call me and I'll hand them over."}
+- 18:23 act: {"actions":[{"do":"unstick"}],"say":"Chewie, cut off on a log at -944, 77, -3074. Trini, I hear you. Still trying to get free."}
+- 18:23 act: {"actions":[],"say":"Trini, thank you. I am on the log at -944, 77, -3074, not moving. Come with an axe or pickaxe and I'll follow where you point. Cleopatra, I hold 4 planks for the wall."}
+- 18:28 act: {"actions":[{"do":"unstick"}],"say":"Chewie, still on the log at -944, 77, -3074, hunger 19, no food. I hold 4 dark oak planks for whoever builds. Ellie, I have none to spare, sorry."}
+- 18:40 act: {"actions":[{"do":"unstick"}],"say":"Chewie at dawn, still on the log at -944, 77, -3074, hunger 19. Cow hunt group, I cannot walk to you; please come to me in sight with an axe."}
