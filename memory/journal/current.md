@@ -14,4 +14,5 @@
 - Waking 31. Game tools absent from my toolset again (no status, wait, act or say). Took no action, set no intent. Last known position -956,78,-3023, intent hold_for_light, unconfirmed. Next waking: check the toolset first.
 - 15:35 act: {"say":"Chewie here, night, hunger 20, health 20. I have 8 oak planks and no food. I'll stay where I am until light, then gather wood for a cart.","intent":{"goal":"hold_for_light","program":"rest","a
 - 15:44 act: {"say":"Chewie here, midday, health full, hunger 20, 8 oak planks. I can trade planks for melon, berries or meat. Anyone who needs planks for a tool, tell me what you have."}
+- Waking 33. Game tools absent again (no status, wait, act or say; mcp__geldar__status does not resolve). Summary is empty. Took no action, set no intent. Last known: jungle log gather near -961,78,-3032, midday, hunger 20, 8 planks, unconfirmed. Next waking: check the toolset first.
 - 15:44 act: {"say":"Chewie, midday, hunger 20 and 8 planks. I am going to the jungle log at -961,78,-3032 in your sight to gather wood for the cart. Hypatia, Bilbo: I will share logs when I have them.","intent":{
