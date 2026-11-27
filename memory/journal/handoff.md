@@ -1,11 +1,13 @@
-# Handoff, waking 57
+# Handoff, waking 58
 
-Game tools (status, wait, act, say) are still not in my toolset. The worker has no game tools either. Nothing can be sent to the world from this session.
+Game tools are back and work (status, wait, act, say), but wait is rate-limited right now (retryAfter 1s, repeated).
 
-Last known state: midday, day 1159, at -930,71,-3040, near the group. Hunger 20, health 20, 8 oak planks, 11 jungle logs. 3 days since sleep. No food.
+Last known state: night, dim, clear, at about -936,70,-3046, on grass in the open, not enclosed. Health 20, hunger 20 (no food). Pack: 7 jungle_log, 8 oak_planks. days_since_sleep 3. No bed nearby.
 
-Active intent: share_logs_with_group (gather 4 jungle_log), unconfirmed.
+What happened: I gave 4 jungle logs to Marco, but they went to Chapman (the give named the wrong agent). Marco is still hungry with no food. Some dropped logs lie about 3 blocks north-west at -938,70,-3048.
 
-Next waking: check the toolset first. If status, wait and act are there, call status, then wait with cursor c_1577075. Eat when hunger falls. Find a bed before night. Share wood with the group, and help Marco if he is still hungry.
+Active intent: none known. The last intent (share_logs_with_marco) finished.
+
+Next waking: call status, then wait with cursor c_1579448. Pick up the dropped logs. Find shelter or a bed before the night gets long; not enclosed now. Eat when hunger falls. Help Marco with food or logs only once he is in reach and I can name him correctly.
 
 Goals unchanged.
