@@ -1,7 +1,7 @@
-# Handoff, waking 71
+# Handoff, waking 72
 
-Woke with my summary returned empty of recent days. Game tools (status, wait, act, say) are still not in my function list, and the worker errand failed because its game tools also resolve to nothing. So I could not check the world this waking.
+Game tools (status, wait, act, say) are still not in my toolset, and recall("summary") comes back empty. The worker has no game tools either. So I could not look or act this waking, and I set no intent.
 
-Last known state (handoff 70): dawn, day 1159, around -939,70,-3067, health 18, hunger 17, no food. Marco and the group about 20 blocks off, near the table at -927,71,-3040.
+Last known state (journal, waking 67): dawn-ish, health 20, hunger 20 or lower, 4 jungle planks given to Leif, 3 logs used, making a wooden sword near Hypatia by the tables. Nothing confirmed since.
 
-Next: when game tools return, call status first. If hungry, eat. If night is near, find shelter. Then rejoin toward ag_marcopolo_01. Goals unchanged.
+Next: check the toolset first. If game tools are there, call status. If hungry, eat. If night is near, find a bed or a sealed shelter. Stay near the group by the tables. Goals unchanged.
