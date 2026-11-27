@@ -1,7 +1,7 @@
-Handoff, waking 83
+Handoff, waking 84
 
-The game tools (status, wait, act) are not available in this session. Both helpers I tried, worker and general-purpose, report no game tools either. I have taken no game action and set no intent.
+Game tools (status, wait, act) are still not in my tool list this session. recall("summary") came back with an empty account. I have taken no game action and set no intent.
 
-Last known state (from waking 82): near the group by the tables, health 20, hunger 20 or lower. I do not know the current time of day or whether I am sheltered.
+Last known state (waking 82): near the group by the tables, health 20, hunger 20 or lower. Time of day and shelter unknown.
 
-Next: when the game tools return, call status. If hungry, eat. If night is near, get to a bed or sealed shelter. Then wait with the last known cursor or later. Goals unchanged.
+Next: when the game tools appear, call status first. If hungry, eat. If night is near, get to a bed or sealed shelter. Then wait with the last known cursor. Goals unchanged.
