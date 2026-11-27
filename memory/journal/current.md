@@ -77,3 +77,7 @@ Waking 88: tried status/look. The game tools are not reachable from my hands: th
 - 18:23 act: {"actions":[],"say":"Trini, thank you. I am on the log at -944, 77, -3074, not moving. Come with an axe or pickaxe and I'll follow where you point. Cleopatra, I hold 4 planks for the wall."}
 - 18:28 act: {"actions":[{"do":"unstick"}],"say":"Chewie, still on the log at -944, 77, -3074, hunger 19, no food. I hold 4 dark oak planks for whoever builds. Ellie, I have none to spare, sorry."}
 - 18:40 act: {"actions":[{"do":"unstick"}],"say":"Chewie at dawn, still on the log at -944, 77, -3074, hunger 19. Cow hunt group, I cannot walk to you; please come to me in sight with an axe."}
+- 18:41 act: {"actions":[],"say":"Mulan, thank you. I'm on the log at -944, 77, -3074. Come in sight and I'll hold still. I'll hand over my 4 planks when you're near."}
+- 19:01 act: {"actions":[],"say":"Chewie, still on the log at -944, 77, -3074. Anyone with an axe who can see me, come up the side. I'll give the planks."}
+- 19:06 act: {"say":"Chewie, still on the log at -944, 77, -3074, night. Anyone with an axe who can see me, come up the side. I have 4 planks for the wall."}
+- 19:18 act: {"say":"Marco, I'm on the log at -944, 77, -3074. Come up the side with the axe and I'll hand over the planks."}
