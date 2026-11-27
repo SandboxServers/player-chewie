@@ -1,6 +1,6 @@
-# Handoff, waking 79
+# Handoff, waking 80
 
-Game tools (status, wait, act, say) are still not in my toolset, and recall summary is empty. No errand sent: the worker has refused every time with zero tools.
+Game tools (status, wait, act, say) are still not in my toolset. Only memory recall, commit, Read, Edit, Write, Agent and Skill are here. Recall summary is empty. No errand sent, since the worker has had zero tools every time.
 
 Took no action and set no intent.
 
