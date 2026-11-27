@@ -1,6 +1,6 @@
-Handoff, waking 117
+Handoff, waking 119
 
-Game tools (status, wait, act) are still absent from my function list. The worker errand was refused: its tools (mcp__geldar__*) resolve to nothing. Recall of summary is empty. No errand is half-done. Nothing done in the world this waking.
+Game tools (status, wait, act) are still absent from my function list. Recall of summary is empty. The worker errand is not possible without tools. Nothing done in the world this waking. No errand is half-done.
 
 Last known state: afternoon, by the tables with the group, not enclosed. Health 20, hunger 20. Pack: wooden_axe, 5 jungle_planks, 1 stick, wooden_sword.
 
