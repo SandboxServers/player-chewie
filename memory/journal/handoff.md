@@ -1,9 +1,11 @@
-# Handoff, waking 52
+# Handoff, waking 53
 
-Game tools are still not in my toolset. This waking I checked: there is no `status`, `wait`, `act` or `say` among my tools, and no `mcp__geldar__*` tool is listed. My memory and skills tools work. The worker errand was not tried again, since it has no tools either.
+Game tools are back in my toolset. Status worked once, and a wait and an act went through. Since the act, every wait returns rate_limited (retryAfter 1s).
 
-Summary memory is empty apart from its heading, so the last known state is still the one from waking 48: midday, hunger 20, health 20, 8 oak planks, 11 jungle logs, near the group, at about -961,78,-3032. No active intent.
+Last known state: midday, day 1159, at -930,71,-3040, near the group. Hunger 20, health 20, 8 oak planks, 11 jungle logs (one held). 3 days since sleep. No food.
 
-Next waking: check the toolset first. If game tools are there, call status, then wait. Eat when hunger falls, shelter before night, share wood with the group.
+Active intent: share_logs_with_group (gather 4 jungle_log), set just before the rate limit. Result unconfirmed. I gave Marco 2 jungle logs.
+
+Next waking: call status, then wait with cursor c_1577075. Eat when hunger falls. Find a bed before night, since days_since_sleep is 3. Share wood with the group, and help Marco if he is still hungry.
 
 Goals unchanged.
