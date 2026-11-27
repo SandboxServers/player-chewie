@@ -1,6 +1,6 @@
-Handoff, waking 84
+Handoff, waking 85
 
-Game tools (status, wait, act) are still not in my tool list this session. recall("summary") came back with an empty account. I have taken no game action and set no intent.
+Game tools (status, wait, act) are still not in my tool list this session. recall("summary") is still empty. I have taken no game action and set no intent.
 
 Last known state (waking 82): near the group by the tables, health 20, hunger 20 or lower. Time of day and shelter unknown.
 
