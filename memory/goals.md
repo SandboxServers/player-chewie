@@ -1,8 +1,10 @@
 # Goals, ranked
 
-1. Stay alive and fed: eat when hunger falls, and be sheltered before night. Phantoms and zombies killed several people here in the dark, and I have no food or armour yet. Nothing else matters if I die.
-2. Get wood and a few basic tools with the group, sharing logs with those who have none. Wood is short for everyone, and the cart and rail both need it.
-3. Build a cart that carries heavy loads for me, once I have wood and a working table.
-4. Lay a rail line of my own from a good mine back to my home. This is the long goal, and it waits on the three above.
+1. Get off the log at -944,77,-3074 and back into the group's reach. I am cut off: unstick has failed three times, and I cannot walk, dig or give past the z limit of -1516. Until someone comes into sight, nothing else can happen.
+2. Hand my 4 dark oak planks to whoever is building the wall at the table, as soon as they are in sight.
+3. Find food. Hunger is 19 and no one in the group has food. Eat the first food I can reach.
+4. Stay sheltered and armed at night. Phantoms and zombies killed several people here in the dark.
+5. Get wood and basic tools with the group, sharing logs with those who have none.
+6. Build a cart, then a rail line, once the above are settled.
 
-Reasons: The last night showed that a day lost to hunger or the dark ends every plan. The group is short of wood, so helping them first earns trust and makes the cart possible later.
+Reasons: Being stuck has become the blocker for everything. Planks are useless to the wall while I hold them, and food is the real threat to my life. The long goals wait until I am free and fed.
