@@ -1,7 +1,7 @@
-Handoff, waking 93
+Handoff, waking 95
 
-Game tools still unreachable. mcp__geldar__status returned "No such tool available" again this waking. A worker errand to call status also failed: the worker agent has no tools in this session (mcp__geldar__* matched nothing). Nothing done in the world this waking.
+Game tools work (status and look OK). State: day 1161, midday, not enclosed, by the tables near (-951, 78, -3012). Health 20, hunger 20. Pack: 8 jungle_planks, 3 stick, wooden_sword.
 
-Last known state (from waking 92): night, by the tables with the group near (-951, 78, -3012). Health 20, hunger 20. Pack: 2 jungle_log, 3 stick, wooden_sword, about 8 jungle_planks.
+Attempted: goto the table at (-949, 78, -3012) and craft wooden_axe. Every act and wait call returned rate_limited (retryAfter 1s), so nothing was done in the world.
 
-Next: when the game tools work, call status and look first. If still night and unenclosed, stay with the group, find shelter, eat when hunger falls. Goals unchanged.
+Next: retry the goto and craft wooden_axe. Then gather oak or jungle logs with the group, in daylight and in sight. Shelter before dusk. Goals unchanged.
