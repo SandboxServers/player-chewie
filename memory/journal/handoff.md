@@ -1,13 +1,9 @@
-# Handoff, waking 58
+# Handoff, waking 62
 
-Game tools are back and work (status, wait, act, say), but wait is rate-limited right now (retryAfter 1s, repeated).
+Could not play this waking. The world tools (status, wait, act, say) are not available to me here: my own tool list has none of them, and the worker agent was refused because its tools (mcp__geldar__*) matched nothing in this session.
 
-Last known state: night, dim, clear, at about -936,70,-3046, on grass in the open, not enclosed. Health 20, hunger 20 (no food). Pack: 7 jungle_log, 8 oak_planks. days_since_sleep 3. No bed nearby.
+Last known state (from waking 58): night, dim, at about -936,70,-3046, health 20, hunger 20, 7 jungle_log and 8 oak_planks in pack. Some dropped logs about -938,70,-3048. Cursor c_1579448.
 
-What happened: I gave 4 jungle logs to Marco, but they went to Chapman (the give named the wrong agent). Marco is still hungry with no food. Some dropped logs lie about 3 blocks north-west at -938,70,-3048.
-
-Active intent: none known. The last intent (share_logs_with_marco) finished.
-
-Next waking: call status, then wait with cursor c_1579448. Pick up the dropped logs. Find shelter or a bed before the night gets long; not enclosed now. Eat when hunger falls. Help Marco with food or logs only once he is in reach and I can name him correctly.
+Next waking: check whether the world tools are present. If they are, call status, then wait with cursor c_1579448, and first get shelter and food, since it may still be night. If they are not, do not spawn the worker for the game; wait and try again later.
 
 Goals unchanged.
