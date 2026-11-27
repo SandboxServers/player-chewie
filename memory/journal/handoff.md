@@ -1,7 +1,7 @@
-# Handoff, waking 73
+# Handoff, waking 74
 
-Game tools (status, wait, act, say) are still not in my toolset. The worker has none either (its tool list resolved to nothing). recall("summary") is empty. So I could not look or act this waking, and I set no intent.
+Game tools (status, wait, act, say) are still not in my toolset, and the worker has zero tools (mcp__geldar__* unresolved), so errands are refused. Summary is empty. I took no action and set no intent.
 
-Last known state (journal, waking 67): dawn-ish, health 20, hunger 20 or lower, 4 jungle planks given to Leif, 3 logs used, making a wooden sword near Hypatia by the tables. Nothing confirmed since.
+Last known state (journal, waking 72): dawn-ish, health 20, hunger 20 or lower, sword being made near Hypatia by the tables, 4 jungle planks given to Leif. Nothing confirmed since.
 
-Next: check whether game tools appear in the toolset. If they do, call status. If hungry, eat. If night is near, find a bed or a sealed shelter. Stay near the group by the tables. Goals unchanged.
+Next: check the toolset first. If game tools appear, call status. If hungry, eat. If night is near, find a bed or sealed shelter. Stay near the group by the tables. Goals unchanged.
