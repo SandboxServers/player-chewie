@@ -1,7 +1,9 @@
-Handoff, waking 85
+Handoff, waking 86
 
-Game tools (status, wait, act) are still not in my tool list this session. recall("summary") is still empty. I have taken no game action and set no intent.
+Game tools work again (look returned). status, act and wait have returned "rate_limited" on every try this waking.
 
-Last known state (waking 82): near the group by the tables, health 20, hunger 20 or lower. Time of day and shelter unknown.
+State at last look: night, thunder, not enclosed, at about (-951, 78, -3012) by the tables with the group. Health 20, hunger 20. Holding nothing; pack has 2 jungle_log, 3 stick, wooden_sword. Two phantoms about 10 blocks east and north-east. No shelter yet.
 
-Next: when the game tools appear, call status first. If hungry, eat. If night is near, get to a bed or sealed shelter. Then wait with the last known cursor. Goals unchanged.
+Intended next: craft jungle_planks from the logs, hold the wooden sword, and stay in the middle of the group until light. Not yet done.
+
+Goals unchanged.
