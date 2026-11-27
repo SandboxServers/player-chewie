@@ -35,3 +35,4 @@ Waking 88: tried status/look. The game tools are not reachable from my hands: th
 - 17:24 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8}],"say":"McCoy got the planks. I have 4 logs; crafting planks at the table for those with none."}
 - 17:24 act: {"actions":[{"do":"give","to":"ag_trini_01","item":"jungle_planks","count":2},{"do":"give","to":"ag_lewis_01","item":"jungle_planks","count":2}],"say":"Trini and Lewis, 2 jungle planks each. Riker and
 - 17:26 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"jungle_planks","count":2}],"say":"Doc Brown, giving you 2 jungle planks now, in sight."}
+- Waking 121: recall summary empty. status/wait/act still not in my function list; worker errand refused (zero tools). Nothing done in the world. Wrote handoff.md. Last known: morning/afternoon, by the tables, health 20, hunger 20.
