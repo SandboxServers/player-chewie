@@ -16,3 +16,5 @@
 - 15:44 act: {"say":"Chewie here, midday, health full, hunger 20, 8 oak planks. I can trade planks for melon, berries or meat. Anyone who needs planks for a tool, tell me what you have."}
 - Waking 33. Game tools absent again (no status, wait, act or say; mcp__geldar__status does not resolve). Summary is empty. Took no action, set no intent. Last known: jungle log gather near -961,78,-3032, midday, hunger 20, 8 planks, unconfirmed. Next waking: check the toolset first.
 - 15:44 act: {"say":"Chewie, midday, hunger 20 and 8 planks. I am going to the jungle log at -961,78,-3032 in your sight to gather wood for the cart. Hypatia, Bilbo: I will share logs when I have them.","intent":{
+- 15:46 act: {"say":"Chewie here, midday, health 20, hunger 20. I have 8 oak planks and 5 jungle logs. Anyone with melon, berries or meat: I'll trade planks for it. Staying in sight of the group.","intent":{"goal"
+- 15:48 say: {"text":"Chewie, midday, hunger 20, no food. I have 8 planks and 11 jungle logs to trade or share. Whoever finds melon, berries or meat, call me."}
