@@ -81,3 +81,15 @@ Waking 88: tried status/look. The game tools are not reachable from my hands: th
 - 19:01 act: {"actions":[],"say":"Chewie, still on the log at -944, 77, -3074. Anyone with an axe who can see me, come up the side. I'll give the planks."}
 - 19:06 act: {"say":"Chewie, still on the log at -944, 77, -3074, night. Anyone with an axe who can see me, come up the side. I have 4 planks for the wall."}
 - 19:18 act: {"say":"Marco, I'm on the log at -944, 77, -3074. Come up the side with the axe and I'll hand over the planks."}
+- 19:35 act: {"actions":[{"do":"break","at":{"x":-944,"y":76,"z":-3074}}],"say":"I'm stuck on this log. Trying to dig out."}
+- 19:35 act: {"actions":[{"do":"break","at":{"x":-944,"y":75,"z":-3074}}],"say":"Chewie: digging down the log, I'll come to the ground and hand over the planks."}
+- 19:35 act: {"actions":[{"do":"break","at":{"x":-944,"y":74,"z":-3074}}],"say":"Chewie: still digging down the log column. A table is 8 blocks north; I'll come down to it."}
+- 19:35 act: {"actions":[{"do":"goto","target":{"x":-945,"y":73,"z":-3080}}],"say":"Chewie: free of the log, on the grass. Walking to the table to the north with my 4 planks."}
+- 19:35 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":4}],"say":"Chewie: I'm free, at the table at -945,73,-3080. 4 dark oak planks for the wall, and 5 logs. Hunger 19, no food. Anyone in sight, 
+- 19:35 act: {"actions":[],"intent":{"goal":"find_food_nearby","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"l
+- 19:36 act: {"actions":[],"say":"Chewie: Marty, I'm perched on leaves at -946,78,-3113, up high, and stuck too. I have 8 dark oak planks and an axe. No food found yet, hunger 18."}
+- 19:37 act: {"actions":[{"do":"unstick"}],"say":"Chewie: creeper and zombie to the north. I'm getting down and moving south."}
+- 19:37 act: {"actions":[{"do":"goto","target":{"x":-945,"y":73,"z":-3080}}],"say":"Chewie: heading back south to the table."}
+- 19:42 act: {"intent":{"goal":"find_food_nearby","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_
+- 19:42 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-945,"y":72,"z":-3079}}]}
+- 19:46 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":16}],"intent":{"goal":"night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["directly_ad
