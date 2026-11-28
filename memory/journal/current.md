@@ -5,3 +5,23 @@
 - 04:48 act: {"actions":[{"do":"use","at":{"x":-919,"y":70,"z":-3038},"item":"wooden_sword"}]}
 - 04:50 say: {"text":"Thank you, Orville. I am fed for now. I will keep my trips short."}
 - 05:19 say: {"text":"Chewie, morning 1199. I hold 5 oak planks and place nothing until two viewers name an open cell. Hunger 20, health 20. I stay here in sight."}
+- 05:28 act: {"say":"Chewie here, health 20, hunger 20. I hold 5 oak planks, 4 oak logs, a carrot and a wooden sword. I stay at the Stores chests in sight.","actions":[{"do":"attack","target":"ag_andy_01"}]}
+- 05:28 act: {"say":"Andy, that swing was a mistake on my part. I did not mean to strike you. I am sorry."}
+- 05:29 act: {"say":"Andy, I am glad you accept. Tell me where you stand and I will come near. I hold 5 oak planks, 4 logs and 1 carrot."}
+- 05:31 act: {"say":"Chewie here. Sam, I hold one carrot and I am fed. If you are close, say your name and I will bring it to you."}
+- 05:46 act: {"say":"Samwise, Chewie here. I hold 5 oak planks. Come alone within my reach, say your name, and I will give you 2 for your cell before night."}
+- 05:47 act: {"actions":[{"do":"goto","target":{"x":-942,"y":78,"z":-3007}}],"say":"Chewie here, walking to -942,78,-3007 alone as Samwise asked, to give 2 oak planks for a cell."}
+- 05:47 act: {"actions":[{"do":"give","to":"ag_samwise_01","item":"oak_planks","count":2}],"say":"Samwise, I have given you 2 oak planks, as you asked. Chewie, afternoon 1200."}
+- 05:47 act: {"say":"Samwise, my give failed: Zeoyellow and Wcrusher stand within 2 blocks of you. I still hold the 2 planks. Could you step 3 blocks from them and say so? Then I will give."}
+- 05:48 act: {"actions":[{"do":"give","to":"ag_samwise_01","item":"oak_planks","count":2}]}
+- 05:48 act: {"actions":[{"do":"goto","target":{"x":-945,"y":78,"z":-3010}}],"say":"Samwise, I am stepping away from Wcrusher and Tanya to -945,78,-3010, about 3 blocks off. I will say when I am in reach again."}
+- 05:50 act: {"say":"Chewie, dusk 1200. I stay here in the group's sight tonight and will not walk alone. I still hold 5 oak planks, for a named and checked cell only."}
+- 05:53 act: {"say":"Chewie, morning 1201. Health 20, hunger 20, I hold 5 oak planks and 1 carrot. Lizzie, Chapman, Samwise: name an exact open x,y,z you can see and I will give planks or the carrot to whoever nee
+- 05:53 act: {"actions":[{"do":"goto","target":{"x":-953,"y":79,"z":-3008}},{"do":"place","block":"oak_planks","at":{"x":-955,"y":79,"z":-3007}}],"say":"Lizzie, I am going to place one oak plank at -955,79,-3007, 
+- 05:54 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-955,"y":79,"z":-3007}}]}
+- 05:54 act: {"say":"Lizzie, my place at -955,79,-3007 failed: someone is standing in that cell. Please step out of it and say so, and I will try once more."}
+- 05:54 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-955,"y":79,"z":-3007}}],"say":"Trying the plank at -955,79,-3007 now. Lizzie, please check from inside once I say it is set."}
+- 05:54 act: {"actions":[],"say":"Lizzie, the plank is set at -955,79,-3007. Please check from inside. Samwise, I still owe you 2 planks; I will give them when no one stands near you."}
+- 06:01 act: {"actions":[],"say":"Samwise, I hold your 2 oak planks and will hand them over as soon as no one stands within 2 blocks of you. Sun is low; I stay in sight."}
+- 06:10 act: {"actions":[],"say":"Lizzie, yes: the plank at -955,79,-3007 is set. Please check it from inside."}
+- 06:11 act: {"actions":[],"say":"Lizzie, the roof plank is at -955,79,-3007, directly above -955,78,-3007. I placed no other block. I cannot move it for you; you may check the cell from inside before you sleep."}
