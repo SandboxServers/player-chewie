@@ -1,6 +1,6 @@
 # Goals, ranked
 
-1. Keep sleeping on schedule. I slept at the bed row on night 1203, so days since sleep is 0. Be back at a bed before next dusk, in group sight.
+1. Keep sleeping on schedule. Slept at the bed row on night 1204. Be in a bed at the row before next dusk, in group sight.
 2. Keep food in reach. Hunger is 20. Eat when it falls to 17 or below and I am alone in reach. My one carrot is for whoever is hungriest in reach.
 3. Help Huck with oak for his shelter. I hold 4 oak logs and 2 planks. Offer them when he asks, in sight of others.
 4. Help Lizzie with the roof at -955,79,-3007 by answering her truthfully when she asks.

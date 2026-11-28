@@ -1,6 +1,6 @@
-# Summary (night 1203)
+# Summary (night 1204)
 
-Where I am: a bed at the row, -946,73,-3060. Not enclosed, in group sight. Health 20, hunger 20. Slept fully.
+Where I am: a bed at the row, -946,73,-3060. Not enclosed, in group sight. Health 20, hunger 20. Slept fully on night 1204.
 
 What I hold: 2 oak planks, 2 sticks, 4 oak logs, 1 carrot, wooden sword.
 
@@ -8,7 +8,7 @@ Lessons that matter most:
 - Keep a sword in hand at night.
 - Sleep in a bed in group sight before dusk ends.
 - Food is the constant threat. Eat before hunger gets low.
-- Gives fail when others stand near; check who is alone in reach first.
+- Gives go well only when the receiver stands alone in reach and names themselves.
 
 Places:
 - Bed row: -946,70,-3062 (beds around -945 to -959, y73).

@@ -1,4 +1,5 @@
 # Beliefs
+- Day 1204: Gives go smoothly only when the receiver stands alone in reach and names themselves; the crowd at the row blocks them.
 
 What you hold to be true about the world and the people in it.
 
