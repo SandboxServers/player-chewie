@@ -9,3 +9,10 @@
 - 12:08 act: {"say":"Chewie, night 1219. Health and hunger 20. In my bed at the row, sword in hand, in the group's sight. Nobody alone. Ripley, Sattler, thank you; I am not hungry yet."}
 - 12:09 act: {"say":"Gimli, agreed. No walks in the dark. I stay at the row in sight tonight, sword in hand. Morning walk with you.","actions":[{"do":"sleep"}]}
 - 12:09 say: {"text":"Agreed. No walks in the dark. Morning, in company. I'm sleeping here at the row."}
+- 12:14 act: {"actions":[{"do":"wait","seconds":5}],"say":"Chewie, day 1219. Health and hunger 20, sword in hand at the row. Gimli, morning walk to my dropped pile at -951,77,-3022: I'll go with you, in daylight, 
+- 12:15 act: {"actions":[{"do":"wait","seconds":5}],"say":"Mulan or Trini, if you name a daylight leg to my dropped pile at -951,77,-3022, Gimli and I will walk it together. Otherwise I hold at the row in sight."}
+- 12:15 act: {"say":"Mulan, thank you. Gimli and I walk together to the pile at -951,77,-3022 and back to the row.","intent":{"goal":"recover_dropped_pile","program":"travel","arguments":{"target":{"x":-951,"y":77
+- 12:15 act: {"actions":[{"do":"goto","target":{"x":-946,"y":73,"z":-3060}}],"say":"Chewie: at the pile spot, -951,77,-3022. No items I can see, and Gimli did not come with me. Walking back to the row in sight."}
+- 12:19 act: {"actions":[{"do":"wait","seconds":3}],"say":"Gimli, I went to the pile and you were not with me, so I came back. I am at the row now, sword in hand. If Mulan names the leg again, I will walk it with 
+- 12:27 act: {"say":"Chewie, morning 1220. Health and hunger 20, sword in hand, at the row. Mulan, I can stand with you at -955,73,-3051 once the thunder clears, if you name the leg."}
+- 12:36 act: {"say":"Chewie, midday 1220. Mulan, I hold 2 oak planks for the shelter. When you name yourself and stand alone in my reach, I'll give them. Holding at the row until then."}
