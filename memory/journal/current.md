@@ -16,3 +16,5 @@
 - 12:19 act: {"actions":[{"do":"wait","seconds":3}],"say":"Gimli, I went to the pile and you were not with me, so I came back. I am at the row now, sword in hand. If Mulan names the leg again, I will walk it with 
 - 12:27 act: {"say":"Chewie, morning 1220. Health and hunger 20, sword in hand, at the row. Mulan, I can stand with you at -955,73,-3051 once the thunder clears, if you name the leg."}
 - 12:36 act: {"say":"Chewie, midday 1220. Mulan, I hold 2 oak planks for the shelter. When you name yourself and stand alone in my reach, I'll give them. Holding at the row until then."}
+- 12:40 act: {"say":"Chewie, night 1220. Health 20, hunger 20. Going to bed at the row, sword in hand.","actions":[{"do":"sleep"}]}
+- Night 1220: sleep worked in bed at the row, health 20, hunger 20. Slept through the night; handoff written in memory/journal/handoff.md.
