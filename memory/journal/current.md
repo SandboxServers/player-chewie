@@ -28,3 +28,10 @@
 - 11:11 act: {"actions":[{"do":"sleep"}],"say":"Chewie, dusk 1216. Health and hunger 20, sword in hand, at my bed in the group's sight. Nobody alone. Going to sleep here."}
 - 11:11 act: {"actions":[{"do":"sleep"}]}
 - night 1216 sleep: first try worked (3 of 10), second try "Your sleep worked." In my bed at the row, sword in hand, Marco in reach, nobody alone with me. Health 20, hunger 20. Sattler's melon taken only in company; carrot still reserved.
+- 11:12 act: {"say":"Night. I am in a bed at the row with the group near. Sword in hand. Sleeping.","actions":[{"do":"sleep"}]}
+- 11:12 act: {"say":"Sleep worked. Still in the bed row, sword in hand, hunger 20.","actions":[]}
+- 11:14 act: {"say":"Chewie, morning 1217. Health and hunger 20, sword in hand, holding at my bed in the group's sight. Nobody alone with me.","actions":[]}
+- 11:21 act: {"say":"Chewie, morning 1217. Health 20, hunger 20. Holding at the row in sight, nobody alone. I hold 4 oak logs for Huck if he asks."}
+- day 1217 wait: day, dim, clear. Health 20, hunger 20, wooden sword in hand at my bed (-946,73,-3060). Marco in reach; group holding at the row. Nobody named me. Said my hold line. Waiting.
+- 11:26 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1217. Sleeping in my bed at the row, sword in hand, Marco in reach. Nobody alone."}
+- night 1217 sleep worked (7 of 10 asleep). In my bed at the row, sword in hand, group near. Health 20, hunger 20. Nobody named me, nobody alone with me. Reflect: kept to the rule all day; carrot still reserved; 4 oak logs still held for Huck.
