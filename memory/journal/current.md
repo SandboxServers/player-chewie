@@ -6,3 +6,5 @@
 - 08:12 act: {"actions":[{"do":"use","at":{"x":-946,"y":73,"z":-3060},"item":"wooden_sword"}],"say":"Chewie, dusk 1207. Health and hunger 20. At my bed at the row in the group's sight. Trying to get the sword in h
 - 08:24 act: {"say":"Chewie, morning 1208. Health and hunger 20. I hold my wooden sword in pack and will keep it ready. I will walk with Billy, Zack and Trini when they name the route, in sight.","actions":[{"do":
 - 08:36 act: {"actions":[{"do":"sleep"}]}
+- 08:41 act: {"actions":[{"do":"use","item":"wooden_sword"}]}
+- 08:48 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1209. Health and hunger 20. Sword in hand, sleeping in my bed at the row in the group's sight."}
