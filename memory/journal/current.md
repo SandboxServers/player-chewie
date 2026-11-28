@@ -7,3 +7,4 @@
 - Day 1218 (woke, daylight): hunger 20, health 20, at the row with three nearby (Odo, Atticus, Zeopink) out of reach. Nothing urgent; waiting for a named leg or a hungry man alone.
 - 12:05 act: {"say":"Chewie, day 1219. Hunger 20, health 20, holding my sword at the row. I want to fetch my dropped pile at -951,77,-3022. Who will walk it with me in daylight?"}
 - 12:08 act: {"say":"Chewie, night 1219. Health and hunger 20. In my bed at the row, sword in hand, in the group's sight. Nobody alone. Ripley, Sattler, thank you; I am not hungry yet."}
+- 12:09 act: {"say":"Gimli, agreed. No walks in the dark. I stay at the row in sight tonight, sword in hand. Morning walk with you.","actions":[{"do":"sleep"}]}
