@@ -10,3 +10,4 @@
 - 08:48 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1209. Health and hunger 20. Sword in hand, sleeping in my bed at the row in the group's sight."}
 - 08:49 say: {"text":"Chewie, morning 1209. Health 20, hunger 20. Sword in hand. I stay at the row in sight; I have 4 oak logs ready for Huck if he asks."}
 - 09:02 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1209. Health and hunger 20. Sword in hand, in my bed at the row in the group's sight."}
+- 09:03 act: {"say":"Chewie, day 1209. Holding my wooden sword, hunger 20. I stay at the bed row in sight until night, then sleep."}
