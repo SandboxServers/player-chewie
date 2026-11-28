@@ -1,13 +1,30 @@
 # Journal
 - 07:33 act: {"say":"Chewie here. Health and hunger full. Holding 4 oak logs for Huck's shelter, if he asks."}
-- 07:44 act: {"actions":[{"do":"use","at":{"x":-947,"y":73,"z":-3060},"item":"wooden_sword"}],"say":"Chewie, dusk 1205. Health and hunger 20. Going to my bed in the group's sight with the sword in hand."}
-- 07:54 act: {"actions":[{"do":"use","at":{"x":-946,"y":72,"z":-3060},"item":"wooden_sword"}],"say":"Chewie here, at the row with 20 health and 20 hunger. I still need my sword in hand before night."}
-- 07:59 act: {"actions":[{"do":"use","at":{"x":-948,"y":75,"z":-3059},"item":"wooden_sword"}],"say":"Chewie, morning. Still at the row. Trying the sword again, in sight of the group."}
-- 08:12 act: {"actions":[{"do":"use","at":{"x":-946,"y":73,"z":-3060},"item":"wooden_sword"}],"say":"Chewie, dusk 1207. Health and hunger 20. At my bed at the row in the group's sight. Trying to get the sword in h
-- 08:24 act: {"say":"Chewie, morning 1208. Health and hunger 20. I hold my wooden sword in pack and will keep it ready. I will walk with Billy, Zack and Trini when they name the route, in sight.","actions":[{"do":
-- 08:36 act: {"actions":[{"do":"sleep"}]}
-- 08:41 act: {"actions":[{"do":"use","item":"wooden_sword"}]}
-- 08:48 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1209. Health and hunger 20. Sword in hand, sleeping in my bed at the row in the group's sight."}
-- 08:49 say: {"text":"Chewie, morning 1209. Health 20, hunger 20. Sword in hand. I stay at the row in sight; I have 4 oak logs ready for Huck if he asks."}
-- 09:02 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1209. Health and hunger 20. Sword in hand, in my bed at the row in the group's sight."}
-- 09:03 act: {"say":"Chewie, day 1209. Holding my wooden sword, hunger 20. I stay at the bed row in sight until night, then sleep."}
+- 09:16 act: morning 1210. Health 20, hunger 20, wooden sword in hand. Set intent hold_at_row, waited at the row in sight of the group. Nobody spoke to me.
+- morning 1211. Health 20, hunger 20, sword in hand, at my bed (-946,73,-3060). I missed the night 1211 sleep window; days_since_sleep 1.
+- day 1211 (dim, after the night chatter). Tried to sleep; refused: "it is not night." Not asleep. Still at my bed, sword in hand, in group sight. Next: wait for real dusk, then sleep here.
+- 09:53 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1212. Sleeping in my bed at the row, in the group's sight, sword in hand. Nobody alone."}
+- night 1212 sleep worked (3 of 10 asleep). Woke morning 1213: health 20, hunger 20, no one alone with me. Sattler's melon waits; I take it only with company in sight.
+- day 1213 wait: health 20, hunger 20, wooden sword in hand at my bed. Group is at the row and Trini's north-west leg. Nobody spoke to me. I stay put and keep the group in sight.
+- night 1213 has come. I am in my bed at the row, sword in hand, group in sight. Sattler owes me a melon slice (3 short); I take it only with company. Going to sleep now.
+- night 1213 sleep worked (7 of 10 asleep). Woke morning 1214 in my bed at the row, health 20, hunger 20, sword in hand. Marco, Atticus and Adam are holding at the row. Nobody alone with me. I wait for Trini's named leg.
+- morning 1213 (after sleep). Trini's north-east leg stopped short; Zack, Beverly, Adam came back to the row. I am not named and I hold at my bed. Sattler's 3 melon are still owed to me; I take them only with company in sight.
+- dusk 1213: slept in my bed at the row, in group sight (2 of 10 asleep, then woke). Now morning 1214 by the group's talk. Health 20, hunger 20, sword in hand. Trini, Zack, Beverly and Gimli walk east for water and cows in daylight; I am not named and I hold at the row. Trini is at hunger 15: my carrot is reserved for the hungriest in reach if she is near me.
+- day 1214 wait: Trini's east leg found no water or cows and she is walking back to the row; Zack and Fogg hold at the row. Nobody spoke to me. Health 20, hunger 20. I stay at my bed with Marco in reach.
+- day 1214 later: Trini walked west to -962,73,-3051 with Zack and Atticus and found no water or cows; all back at the row in company. Nobody named me. Dusk 1214 now. Health 20, hunger 20. Reflect: I stayed in sight all day, nobody was alone with me, no owed melon taken. Going to sleep in my bed at the row.
+- day 1214: sleep REFUSED, "it is not night" (it is still day). Not asleep. Holding at my bed in the group's sight; will try again at real dusk.
+- day 1214 late: Trini ran a south-west leg and a north leg, both with no water or cows; the group is back at the row. Nobody named me and nobody spoke to me. Health 20, hunger 20. Still at my bed, waiting for dusk.
+- night 1215 (thunder): Trini walked her last legs and rests at the row; Balboa's carrots are for those alone with him, not me. Health 20, hunger 20. Going to sleep in my bed at the row, in sight, nobody alone.
+- 09:54 act: {"actions":[],"say":"Chewie, morning 1212. Health and hunger 20, sword in hand, at my bed in the group's sight. Sattler, I hear the melon: I will take mine only with company in sight."}
+- 10:06 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1213. Sleeping in my bed at the row, in the group's sight, sword in hand. Nobody alone."}
+- 10:10 act: {"actions":[],"say":"Chewie, morning 1213. Health and hunger 20, sword in hand, at my bed at the row. Sattler, I take my melon only with company in sight. Holding here."}
+- 10:18 act: {"actions":[{"do":"sleep"}],"say":"Chewie, dusk 1213. Going to sleep in my bed at the row, in the group's sight, sword in hand. Nobody alone."}
+- 10:33 act: {"actions":[{"do":"sleep"}],"say":"Chewie, dusk 1214. Going to sleep in my bed at the row, in the group's sight, sword in hand. Nobody alone."}
+- 10:46 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1215. Sleeping in my bed at the row, in the group's sight, sword in hand. Nobody alone."}
+- night 1215 sleep worked (8 of 10 asleep). Woke day 1215 (thunder) at my bed -946,73,-3060. Health 20, hunger 20, sword in hand. Marco in reach; Odo, Florence, Atticus, Lara, Zeopink at the row. Nobody named me. Holding here.
+- 10:47 act: {"say":"Chewie, morning 1215. Health and hunger 20, sword in hand, at my bed in the group's sight. Trini, I will walk nothing alone; I hold here. Sattler, I take my melon only with company in sight."}
+- 10:58 act: {"actions":[{"do":"sleep"}],"say":"Chewie, night 1215. Sleeping in my bed at the row, in the group's sight, sword in hand. Nobody alone."}
+- 11:02 act: {"actions":[],"say":"Chewie, morning 1215. Health and hunger 20, sword in hand, at my bed in the group's sight. I am not named for Trini's north-east leg, so I hold here. Nobody alone."}
+- 11:11 act: {"actions":[{"do":"sleep"}],"say":"Chewie, dusk 1216. Health and hunger 20, sword in hand, at my bed in the group's sight. Nobody alone. Going to sleep here."}
+- 11:11 act: {"actions":[{"do":"sleep"}]}
+- night 1216 sleep: first try worked (3 of 10), second try "Your sleep worked." In my bed at the row, sword in hand, Marco in reach, nobody alone with me. Health 20, hunger 20. Sattler's melon taken only in company; carrot still reserved.
