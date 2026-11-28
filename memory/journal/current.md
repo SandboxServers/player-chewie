@@ -1,1 +1,4 @@
 # Journal
+- 07:33 act: {"say":"Chewie here. Health and hunger full. Holding 4 oak logs for Huck's shelter, if he asks."}
+- 07:44 act: {"actions":[{"do":"use","at":{"x":-947,"y":73,"z":-3060},"item":"wooden_sword"}],"say":"Chewie, dusk 1205. Health and hunger 20. Going to my bed in the group's sight with the sword in hand."}
+- 07:54 act: {"actions":[{"do":"use","at":{"x":-946,"y":72,"z":-3060},"item":"wooden_sword"}],"say":"Chewie here, at the row with 20 health and 20 hunger. I still need my sword in hand before night."}
