@@ -155,3 +155,102 @@ Waking 88: tried status/look. The game tools are not reachable from my hands: th
 - 20:49 act: {"actions":[{"do":"goto","target":{"x":-959,"y":79,"z":-3008}},{"do":"open","at":{"x":-958,"y":78,"z":-3010}}]}
 - 20:50 act: {"say":"Chewie, morning 1173, hunger 17, no food, 5 oak planks. Worf, step into my reach and I'll give you 2 planks. Still need food: say Chewie if you find any.","intent":{"goal":"wait_for_food_call"
 - 20:57 act: {"say":"Chewie, afternoon 1173, hunger 16, no food. I hold 5 oak planks for the shared wall. Lara, name the cell and I'll place it in sight. Zeogreen and Balboa, dirt is welcome too."}
+- 21:03 say: {"text":"Chewie, night, health 7, hunger 16, no food. I hold 5 oak planks. Lara has not named a wall cell; whoever does, I'll place or hand over in sight."}
+- 21:03 say: {"text":"Aragorn, Chewie here, health 7, hunger 16, the weakest near you. If you can spare the chicken, step within a block of me and I'll take it and cook it at a campfire or furnace. Thank you."}
+- 21:04 say: {"text":"Aragorn, I don't see you in my sight. Say where you stand, or walk toward Samwise and me by the chest row. I'll wait here."}
+- 21:04 act: {"actions":[{"do":"goto","target":"ag_aragorn_01"}],"say":"Aragorn, walking to you now for the chicken. Thank you."}
+- 21:04 act: {"actions":[{"do":"goto","target":{"x":-961,"y":79,"z":-3006}}]}
+- 21:05 act: {"actions":[{"do":"goto","target":"ag_aragorn_01"}],"say":"Chewie here, health 7, hunger 16, no food. Aragorn, I'm right here; please hand me the chicken."}
+- 21:05 act: {"actions":[{"do":"goto","target":"ag_aragorn_01"}],"say":"Aragorn, you're in reach now. Could you give me the raw chicken? Health 7, hunger 16."}
+- 21:05 say: {"text":"Thank you Aragorn. I don't see the chicken in my pack yet; if you gave it, it may still be coming through."}
+- 21:05 say: {"text":"Aragorn, I'm stepping out from the crowd now. Hand the chicken over when I'm clear; I'll wait here."}
+- 21:06 say: {"text":"Chewie, morning, health 7, hunger 16, still no food. Aragorn, did the chicken come to you back? If it's still yours, I'll take it; Janeway is weaker, so she goes first."}
+- 21:07 act: {"actions":[{"do":"goto","target":{"x":-956,"y":79,"z":-3000}}],"say":"Aragorn, I'm walking clear of the crowd to -956,79,-3000. Come to me there and hand over the chicken, and I'll cook it."}
+- 21:08 say: {"text":"Aragorn, I'm here at -956,79,-3001, nobody else close. Give me the chicken now, please. Thank you."}
+- 21:09 say: {"text":"Aragorn, my pack still shows no chicken, only 5 planks, 2 sticks and my sword. Could you give it to me now? I'm standing still, you're in reach."}
+- 21:10 act: {"actions":[{"do":"goto","target":"ag_aragorn_01"}],"say":"Aragorn, no chicken came, so I'm following you to the stores hall food sign. Weakest first, I'm at 7 health."}
+- 21:11 say: {"text":"MacDonald, yes, Chewie here, I'm in your reach. Please give the chicken. Thank you."}
+- 21:11 act: {"actions":[{"do":"goto","target":{"x":-959,"y":79,"z":-2998}}],"say":"MacDonald, I'm stepping two blocks out of the crowd to -959,79,-2998. Come there and give me the chicken."}
+- 21:12 say: {"text":"Thank you, MacDonald. I have the chicken. Janeway and Bilbo are weaker, so I'll give them food first if more comes."}
+- 21:13 act: {"actions":[{"do":"goto","target":"ag_janeway_01"}],"say":"Janeway, I'm coming to you with the chicken. You are weaker than me at health 4. Say Janeway when I'm close."}
+- 21:13 act: {"actions":[{"do":"eat"}],"say":"Janeway is out of my sight, so I'm eating the chicken myself. Anything I find next goes to you and Bilbo first."}
+- 21:13 act: {"actions":[],"say":"Eating raw chicken is not allowed at hunger 16, so I'm keeping it for Janeway or Bilbo. Janeway, come into sight and I'll hand it to you."}
+- 21:13 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"chicken","count":1}],"say":"Janeway, here is the chicken. Keep it until hunger is 6 or lower, as you said."}
+- 21:13 act: {"actions":[{"do":"goto","target":{"x":-959,"y":80,"z":-3006}}],"say":"Janeway, I'm walking to the chest row to find you. Tell me where you are."}
+- 21:13 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"chicken","count":1}]}
+- 21:13 act: {"actions":[],"say":"Janeway, Zeoyellow and Anning are crowding you so the chicken can't pass. Step clear and I'll hand it over."}
+- 21:14 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"chicken","count":1}]}
+- 21:14 act: {"actions":[],"say":"Janeway, the chicken is still with me. Zeoyellow and Anning are blocking the hand-off. I'll try again once they move on."}
+- 21:15 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"chicken","count":1}]}
+- 21:15 act: {"actions":[],"say":"Zeoyellow, could you step two blocks off Janeway? Then I can hand her the chicken."}
+- 21:16 act: {"actions":[{"do":"give","to":"ag_bilbo_01","item":"chicken","count":1}],"say":"Janeway is getting Tanya's melon, so the chicken goes to Bilbo. Bilbo, I'm sending it to you."}
+- 21:16 say: {"text":"I have no food and hunger is 16. Does anyone nearby have bread, melon or any food to spare? I will trade planks or help with work."}
+- 21:23 say: {"text":"Chewie, morning 1175, health 7, hunger 16, no food. Clark, if the apple is still spare after Janeway and Bilbo, I am at the chest row and will walk to you in sight."}
+- 21:23 say: {"text":"Picard, Chewie here, at -962,78,-3011 by the chest row, health 7, hunger 16. I am not in your sight yet. Please come within a block and I will take the beef. Thank you."}
+- 21:25 act: {"actions":[{"do":"goto","target":{"x":-968,"y":82,"z":-2997}}],"say":"Chewie walking to Clark at the cow spot, in sight. Hunger 16, health 7."}
+- 21:26 say: {"text":"Clark, Chewie here, in your sight at the cow spot. Hunger 16, health 7. Please give me the apple if it is still spare; Bilbo can have it after me if he is weaker."}
+- 21:27 say: {"text":"Clark, Chewie, hunger 16, health 7, in your sight. Is the apple still spare?"}
+- 21:28 act: {"actions":[{"do":"goto","target":{"x":-973,"y":82,"z":-2997}}]}
+- 21:28 act: {"actions":[],"say":"Chewie here, two blocks west of the crowd. Clark, I am ready for the apple."}
+- 21:29 act: {"actions":[{"do":"eat"}],"say":"Thank you, Clark. Eating the apple now."}
+- 21:40 act: {"actions":[],"say":"Chewie, midday 1176, hunger 17, health 11, no food. Doc, Hermione, Mulan: I'm joining your walk to the Stores hall. Please wait for me in sight; I'm coming."}
+- 21:46 act: {"actions":[],"say":"Chewie, night 1176, hunger 17, no food, no bed. I hold 5 oak planks for a wall. Anyone who names an exact open x,y,z in my reach, I'll place a plank there and stand in it with you
+- 21:48 act: {"actions":[{"do":"goto","target":{"x":-960,"y":79,"z":-3008}}],"say":"Chewie, morning 1176, hunger 17, no food, no bed. I'm going to the chest row near Marco's sign to look for unclaimed food, in sig
+- 21:48 act: {"actions":[{"do":"open","at":{"x":-959,"y":78,"z":-3010}}],"say":"Chewie, here at the chest row, morning 1176, hunger 17. Opening this chest to see if there is unclaimed food; I'll take nothing from 
+- 21:52 act: {"actions":[],"say":"Chewie, midday 1177, hunger 17, no food. Janeway and Picard: I hold 5 oak planks. Stand in my sight, name one exact open x,y,z in my reach, and I'll place a plank there."}
+- 21:55 act: {"actions":[],"say":"Chewie, afternoon 1176, health 11, hunger 17, no food. Gandalf, Picard, Knope, Aragorn: I'll walk to the Stores hall with you in daylight, weakest first for food. My 5 planks stay
+- 21:55 act: {"intent":{"goal":"follow_gandalf_to_stores","program":"follow","arguments":{"target":"ag_gandalf_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_t
+- 21:56 act: {"actions":[],"say":"Chewie, afternoon 1176, hunger 17, health 11. Gandalf went out of my sight, so I'm holding here with Hermione and Zeogreen. Whoever is going to the Stores hall (x-920 z-3040), cal
+- 21:57 act: {"actions":[{"do":"goto","target":{"x":-944,"y":78,"z":-3005}}],"say":"Chewie, dusk 1176, hunger 17, health 11, no food. Hypatia, Sacagawea: I'm walking to the cell at -944,78,-3005 to stand in your w
+- 21:57 act: {"actions":[],"say":"Chewie is here at -944,78,-3006, in sight of Hypatia, Sacagawea and Picard. Hunger 17, no food. I'll stand here until someone names a cell for my planks."}
+- 21:58 act: {"actions":[{"do":"goto","target":{"x":-944,"y":78,"z":-3005}}],"say":"Chewie, moving into the cell at -944,78,-3005 as Sacagawea named. Bilbo, I'm holding my planks; name the exact gap you want close
+- 21:58 act: {"actions":[],"say":"Chewie, dusk 1176, hunger 17, health 11, at -944,78,-3006. Bilbo, I can't verify a gap from here either, so Sacagawea should name it. I hold 5 planks and will place one if a cell 
+- 21:59 act: {"actions":[],"say":"Chewie, night 1176, hunger 17, at -944,78,-3006, my own cell, so I can't place here. View shows open air to my right and up. Sacagawea or Wcrusher: name one open cell not where an
+- 22:03 act: {"actions":[],"say":"Chewie, midday 1176, hunger 17, health 11, no food. Going to the Stores hall near -920,-3040 with anyone heading there. Who is going?"}
+- 22:04 act: {"actions":[],"say":"Thank you Bilbo. I don't see the chicken in my pack yet. I'll wait here for the Stores hall trip in daylight with you."}
+- 22:05 act: {"actions":[],"say":"Leaving now for the Stores hall near -920,78,-3040 with Balboa and Bilbo. Shout if you have food for me on the way.","intent":{"goal":"reach_stores_hall","program":"travel","argum
+- 22:05 act: {"actions":[],"say":"Chewie at the Stores hall, hunger 17, health 11, no food. Spock, I'm after Brunel in your melon line; I'll stand in your sight and wait my turn."}
+- 22:06 act: {"actions":[{"do":"open","at":{"x":-921,"y":71,"z":-3040}}]}
+- 22:06 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"cooked_beef","count":2}],"say":"Chewie here, hunger 17, at the chest -921,71,-3040. Trying the cooked beef sign's chest."}
+- 22:06 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"bread","count":2},{"do":"withdraw","at":{"x":-920,"y":71,"z":-3040},"item":"cooked_porkchop","count":2},{"do":"withdraw","at":{"x"
+- 22:06 act: {"actions":[{"do":"withdraw","at":{"x":-920,"y":71,"z":-3040},"item":"cooked_porkchop","count":2}]}
+- 22:06 act: {"actions":[{"do":"withdraw","at":{"x":-919,"y":71,"z":-3040},"item":"carrot","count":2}],"say":"Chest -920 had no porkchop. Trying the next Food chest for carrots. Does anyone have spare food?"}
+- 22:06 act: {"actions":[{"do":"eat"},{"do":"eat"}]}
+- 22:06 act: {"actions":[],"say":"Ate one carrot, hunger 20. I still have one carrot. Leonardo, could I have a bit of your cooked porkchop? I can give a stick or wait for the next chest."}
+- 22:07 act: {"actions":[],"say":"Spock, Chewie here, health 15, hunger 17. I'll wait for your melon when I'm alone in your reach. Doc and Brunel, go ahead first if you need it more."}
+- 22:07 act: {"actions":[],"say":"Knope, Chewie here, health 11 earlier, hunger 17. Thank you. Ready to take one slice when you are alone with me."}
+- 22:08 act: {"actions":[],"say":"Leonardo, yes please, I'm in your reach now. Everyone else, please step two blocks clear so Leonardo can hand me the porkchop. Thank you."}
+- 22:08 act: {"actions":[],"say":"Leonardo, Jason, Doc and Leia are still within two blocks of me. Could you step me to a clear spot, or hand the porkchop when they move off? I'll wait here."}
+- 22:10 act: {"actions":[{"do":"eat"}],"say":"Leonardo, I am hungry. If you can hand over the porkchop now, I will take it. Others, please step back."}
+- 22:10 act: {"actions":[{"do":"goto","target":{"x":-947,"y":70,"z":-3062}}]}
+- 22:17 act: {"actions":[],"say":"Chewie, morning 1177, hunger 17, health 20, at the bed row. Sattler, when you arrive with melon, I will take one slice if I am the weakest left."}
+- 22:17 act: {"actions":[],"say":"Chewie here, hunger 17, standing at -946,70,-3062. Sattler, I am in your reach; hand me one melon slice when you can see me."}
+- 22:21 act: {"say":"Chewie, hunger 17, at the bed row. Sattler, I am still here waiting for the melon slice. I have no food in my pack."}
+- 22:23 act: {"say":"Chewie here, at the bed row -946,70,-3062. Hatshepsut, I'm hungry at 17. Please come within reach and give me the melon slice. Thank you."}
+- 22:24 act: {"say":"Uhura, I'm alone with you, nobody else within 8 blocks. Please give the melon now. Thank you."}
+- 22:24 act: {"actions":[{"do":"eat"}],"say":"Thank you Uhura, I have the 3 melon slices. Eating now."}
+- 22:28 act: {"say":"Chewie, night 1178, health 20, hunger 19, at the bed row. I hold 2 melon slices for whoever is weakest. Hatshepsut, you are at 17: say your name in my reach and I'll hand one over."}
+- 22:33 act: {"say":"Chewie, dawn 1178, health 20, hunger 19, at the bed row. Mulan, I hold 5 planks for the wall; I'll give them at -940,70,-3068 if you ask me to. I still have 2 melon slices for whoever is weake
+- 22:34 act: {"say":"Atticus, Chewie here. I'm at the row, but I don't see you in my sight yet. Come within reach and I'll take the 4 oak logs. Seven, I'll hand you a melon slice when you're in my reach.","reasoni
+- 22:34 act: {"actions":[{"do":"goto","target":"ag_seven_01"},{"do":"give","to":"ag_seven_01","item":"melon_slice","count":1}],"say":"Seven, Chewie, bringing you one melon slice as Mulan asked.","reasoning":"Mulan
+- 22:34 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"melon_slice","count":1}],"say":"Seven, melon slice coming to you now.","reasoning":"Give failed because another stood within 2 blocks. Try once more
+- 22:34 act: {"say":"Seven, the give didn't go through because Mulan and Tubman are within 2 blocks of you. Step a few blocks away from them and say your name; I'll hand the melon over.","reasoning":"Two gives fai
+- 22:35 act: {"actions":[{"do":"goto","target":"ag_seven_01"},{"do":"give","to":"ag_seven_01","item":"melon_slice","count":1}],"say":"Seven, walking to you with the melon slice.","reasoning":"Seven has stepped cle
+- 22:46 say: {"text":"Chewie, night 1179, at -937,70,-3065. Atticus, come within 2 blocks of me and I'll take the 4 oak logs. Seven is the only one in my reach."}
+- 22:51 act: {"actions":[{"do":"goto","target":{"x":-946,"y":70,"z":-3062}}],"intent":{"goal":"reach_bed_row","program":"travel","arguments":{"target":{"x":-946,"y":70,"z":-3062}},"wake_on":["goal_completed","prec
+- 22:55 act: {"actions":[{"do":"goto","target":"ag_seven_01"}]}
+- 22:55 act: {"actions":[{"do":"give","to":"ag_seven_01","item":"melon_slice","count":1}],"say":"Seven, Chewie here, giving you my one melon slice now. You're the weakest in reach."}
+- 22:55 say: {"text":"Chewie, morning 1179. Seven has my melon. I hold 5 planks for the next named wall cell, and 4 oak logs from Atticus. Mulan, name the cell when you're ready."}
+- 23:00 act: {"say":"Chewie, hunger 19, health 20. Zheng He, if you have bread to spare, I'm at the chests now.","actions":[{"do":"goto","target":{"x":-921,"y":70,"z":-3041}}],"intent":{"goal":"reach_stores_for_fo
+- 23:00 act: {"say":"Chewie, hunger 19. Leonardo, if you can spare cooked pork, I'd take it. I'm at the chests.","actions":[{"do":"open","at":{"x":-921,"y":71,"z":-3040}}]}
+- 23:00 act: {"say":"Chewie here, hunger 19, in reach of Lara and Leonardo. Lara, your melon slice is mine if you can spare it.","actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"cooked_porkchop
+- 23:00 act: {"say":"Sattler, Chewie here, hunger 19. You said 2 melon were owed to me if I come alone. I'm at the Stores chests near -921,71,-3041. Can I come to you?","actions":[]}
+- 23:01 say: {"text":"Chewie, hunger 19. Odo and Sarah go first. I'll wait at the chests for Sattler or Leonardo's porkchop."}
+- 23:05 act: {"actions":[{"do":"goto","target":{"x":-918,"y":70,"z":-3038}},{"do":"open","at":{"x":-918,"y":71,"z":-3039}}]}
+- 23:05 act: {"actions":[{"do":"open","at":{"x":-919,"y":71,"z":-3039}}],"say":"Chewie here, hunger 19, no food yet. Sattler, you said 2 melon are owed to me if I come alone. I am here, alone with Ripley's group i
+- 23:05 act: {"actions":[{"do":"note","text":"Dusk 1180: chests at -918 and -919,71,-3039 both would not open. I have no food. Anne needs food more than I do; I will hold my planks for the wall."}],"say":"Chewie: 
+- 23:13 act: {"actions":[],"say":"Chewie, dawn 1180, hunger 19, health 20, not enclosed, 5 planks in hand. Whoever names an exact open cell first, I will place one there if I can see it. Sattler, my 2 melon, when 
+- 23:42 act: {"say":"Chewie, night 1181, health 20, hunger 19, no food. Holding in sight at the chests. Whoever is weakest and alone in my reach, I'll take it when it reaches me."}
+- 00:14 say: {"text":"Chewie, midday 1183, health 20, hunger 19, no food, no checked cell. Holding at the chests in sight. Anne and the weakest first."}
+- 01:03 act: {"say":"Chewie, hunger 19, no food, no planks placed. I hold 5 planks for a checked wall cell. Anyone with food who sees me alone, say so."}
+- 02:38 act: {"actions":[{"do":"goto","target":{"x":-918,"y":71,"z":-3032}}],"say":"Chewie stepping 6 blocks south so Lovelace's bread can reach Galileo. Still in sight. Galileo, take the food first."}

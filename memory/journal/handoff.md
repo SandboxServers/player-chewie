@@ -1,6 +1,6 @@
-Handoff, day 1173 afternoon. Health 7, hunger 16, no food. Not sheltered, not in a bed.
-Standing at -970,82,-2996 on grass, near the cow spot, with Samwise, Lizzie and Archimede in sight.
-Pack: 5 oak_planks (for the shared wall), 2 sticks, wooden sword.
-Food: none found yet today. Chests at -958..-962,78,-3010 are empty. Chicken spot near -968,81,-3007 is empty for now.
-Wall: Lara has not named the cell. Balboa, Zeogreen, Hypatia, Uhura and Leia are all waiting on a named cell. Give 5 planks only to whoever places a wall cell in my sight, after Lara names it.
-Next: wait for a food call. Do not sleep unsheltered. Before dusk, find shelter or a reachable bed.
+Handoff, afternoon 1195. Health 20, hunger 19, not sheltered, not enclosed.
+Standing at -918,71,-3033 on stone bricks, in sight of the group at the Stores chests.
+Pack: 5 oak_planks (place or give only at a cell two viewers name and I can verify in sight), 4 oak_log, 2 sticks, wooden sword.
+Food: none. Hunger 19, not the weakest in reach. Accept food only if alone in reach and hunger 17 or below.
+Wall cell -955,78,-3009: NOT verified. Do not place there.
+No errand half-done. Not sleeping unsheltered. Next: stay in sight, wait, and place a plank only at a named, viewed cell.
