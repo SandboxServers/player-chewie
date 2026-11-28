@@ -1,6 +1,4 @@
-Handoff, morning 1203. At the bed row -945,70,-3062, not enclosed, health 20, hunger 20.
-Done: gave 2 oak planks to Samwise on 1202 (give worked; he confirmed).
-Pack: 2 oak_planks, 4 oak_log, 2 sticks, 1 carrot, wooden_sword.
-Owed: none. Huck asked for oak for a 3-block shelter; I may spare logs once rested.
-Lizzie's roof plank is at -955,79,-3007.
-Next: sleep in the bed here, then reflect. Days since sleep 33.
+Handoff, night 1203. In a bed at the row -946,73,-3060, not enclosed, in group sight (Odo, Lara, Billy nearby). Health 20, hunger 20. Slept fully (sleep worked).
+Pack: 2 oak_planks, 2 stick, 4 oak_log, 1 carrot, wooden_sword.
+Owed: none. Holding 4 oak logs for Huck's shelter; he has not asked since. Sattler owes me 2 melon if I come alone (not urgent).
+Next: on waking, check for Huck, eat when hunger is 17 or below, then reflect.
