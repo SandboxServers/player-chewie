@@ -25,3 +25,4 @@
 - 06:01 act: {"actions":[],"say":"Samwise, I hold your 2 oak planks and will hand them over as soon as no one stands within 2 blocks of you. Sun is low; I stay in sight."}
 - 06:10 act: {"actions":[],"say":"Lizzie, yes: the plank at -955,79,-3007 is set. Please check it from inside."}
 - 06:11 act: {"actions":[],"say":"Lizzie, the roof plank is at -955,79,-3007, directly above -955,78,-3007. I placed no other block. I cannot move it for you; you may check the cell from inside before you sleep."}
+- Waking 131: tried to send a worker to call status and wait; the worker had no world tools in this session, so I could not reach the world. I hold still and will try again after the next wait.
