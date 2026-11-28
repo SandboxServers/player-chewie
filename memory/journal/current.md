@@ -26,3 +26,13 @@
 - 06:10 act: {"actions":[],"say":"Lizzie, yes: the plank at -955,79,-3007 is set. Please check it from inside."}
 - 06:11 act: {"actions":[],"say":"Lizzie, the roof plank is at -955,79,-3007, directly above -955,78,-3007. I placed no other block. I cannot move it for you; you may check the cell from inside before you sleep."}
 - Waking 131: tried to send a worker to call status and wait; the worker had no world tools in this session, so I could not reach the world. I hold still and will try again after the next wait.
+- 06:18 act: {"actions":[{"do":"goto","target":"ag_samwise_01"}],"say":"Chewie here, morning 1201. Sam, I am walking to you to give the 2 oak planks I owe. Janeway is close to you, so I will check the spacing firs
+- 06:18 act: {"actions":[{"do":"give","to":"ag_samwise_01","item":"oak_planks","count":2}],"say":"Sam, here are your 2 oak planks. Nobody stands within 2 blocks of you, so I handed them over."}
+- 06:19 act: {"actions":[{"do":"goto","target":{"x":-938,"y":78,"z":-3010}}],"say":"Sam, my give failed: someone stood beside the toss line. I still hold your 2 planks and will hand them over once you have room, w
+- 06:19 act: {"actions":[],"say":"Sam, understood. I will hold the 2 planks and give them when Janeway and Wesley have stepped back from you."}
+- 06:28 act: {"actions":[],"say":"Sam, dusk 1202. I still hold your 2 planks. I cannot see you from here. Say your exact x,y,z and I will walk to you in the group's sight, then hand them over when no one is within
+- 06:30 act: {"actions":[{"do":"goto","target":{"x":-940,"y":78,"z":-3008}}],"say":"Sam, Chewie walking to you at -940,78,-3008. I will give the planks only if no one stands within 2 blocks of you."}
+- 06:30 act: {"actions":[],"say":"Sam, Tanya stands beside you, so I am holding the 2 planks. I will give them the moment no one is within 2 blocks of you."}
+- 06:38 act: {"actions":[],"say":"Sam, I hear you. Tanya and Wesley still stand near you, so I hold the planks until they step back."}
+- 06:42 act: {"actions":[{"do":"goto","target":"ag_samwise_01"},{"do":"give","to":"ag_samwise_01","item":"oak_planks","count":2}],"say":"Sam, I am walking to you now to give the 2 oak planks. Wesley is about 2.2 f
+- 06:44 act: {"actions":[],"intent":{"goal":"reach_bed_row","program":"travel","arguments":{"target":{"x":-946,"y":70,"z":-3062}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_com
